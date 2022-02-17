@@ -166,7 +166,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
     const starterPattern = new RegExp(`[\?&]starter=(.+?)(/.*)`);
 
     commands.addCommand(CommandIDs.routerStart, {
-      execute: async (args) => {
+      execute: async (args: any) => {
         console.log('routing', args);
         const loc = args as IRouter.ILocation;
         const starterMatch = loc.request.match(starterPattern);

@@ -13,7 +13,7 @@ export const API = URLExt.join(PageConfig.getBaseUrl(), 'starters');
 
 export const DEFAULT_ICON_NAME = `${NS}:default`;
 export const DEFAULT_ICON_CLASS = `jp-StartersDefaultIcon`;
-export const CATEGORY = 'Starters';
+export const CATEGORY = 'Masters';
 
 export interface IStarterManager extends IRunningSessions.IManager {
   changed: ISignal<IStarterManager, void>;
