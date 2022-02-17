@@ -1,4 +1,7 @@
-{
+{ 
+  "name": "@jupyterlab/twdstarters",
+  "version": "0.1.0",
+  "description": "A change in deathbeds/starters",
   "private": true,
   "scripts": {
     "bootstrap": "jlpm --ignore-optional --prefer-offline --frozen-lockfile && lerna bootstrap && jlpm lint && jlpm clean && jlpm build",
